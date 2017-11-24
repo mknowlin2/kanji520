@@ -9,7 +9,8 @@ export class HeaderLinkService {
     new Link("Kanji520", "https://www.youtube.com/Kanji520"),
     new Link("Nightwulf29", "https://www.youtube.com/Nightwulf29"),
     new Link("APrince", "https://www.youtube.com/channel/UCXs6sK7NZYJR1sMoJg8q2eA"),
-    new Link("NerdUpInc", "https://www.youtube.com/channel/NerdUpInc")
+    new Link("NerdUpInc", "https://www.youtube.com/user/NerdUpInc"),
+    new Link("Qentizy", "https://www.youtube.com/channel/UC0h14g6s3Xk_-5r77VR8PXA")
   ];
 
   private twitchLinks : Link[] = [
