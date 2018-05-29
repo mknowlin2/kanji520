@@ -1,6 +1,6 @@
 # Kanji520
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
+This project leverages [Angular CLI](https://github.com/angular/angular-cli) version 6.0.5.
 
 ## Development server
 
