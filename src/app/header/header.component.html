@@ -1,0 +1,27 @@
+<mat-toolbar>
+  <mat-toolbar-row>
+      <a routerLink="/" class="navbar-brand mat-button">
+        <span class="mat-button-wrapper">
+            <img id="logo" src="/assets/images/kanji520.png">
+        </span>
+      </a>
+      <button mat-button [matMenuTriggerFor]="youtubeMenu">
+          <i class="fa fa-youtube-square" aria-hidden="true"></i> YouTube
+      </button>
+      <mat-menu #youtubeMenu="matMenu">
+        <button mat-menu-item>YouTube 1</button>
+        <button mat-menu-item>YouTube 2</button>
+      </mat-menu>
+      <button mat-button [matMenuTriggerFor]="twitchMenu">
+          <i class="fa fa-twitch" aria-hidden="true"></i> Twitch
+      </button>
+      <mat-menu #twitchMenu="matMenu">
+        <button mat-menu-item>Twitch 1</button>
+        <button mat-menu-item>Twitch 2</button>
+      </mat-menu>
+      <a class="mat-button" mat-button href="https://www.instagram.com/kanji_520">
+        <i class="fa fa-instagram" aria-hidden="true"></i> Instagram
+      </a>
+      <a class="mat-button" mat-button>Gamer Tags</a>
+  </mat-toolbar-row> 
+</mat-toolbar>
